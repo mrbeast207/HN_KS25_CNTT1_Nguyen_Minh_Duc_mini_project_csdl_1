@@ -34,3 +34,10 @@ where price <  1000000 ;
 select * from Products;
 select * from Products
 where stock > 15 ;
+select * from Products
+where price between 1000000 and 25000000;
+select * from Products 
+where product_name <> "iPhone 15" and stock > 0;
+select * from Products 
+where category_id <> 1 and price >  500000;
+
